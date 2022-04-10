@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="LOGO" />SPOTIFY</li>
+      </ul>
+    </nav>
+    <div class="conatiner">
+      <div class="songList"></div>
+        <h1 class="head">My Playlist <3</h1>
+        <div class="songitemcontainer">
+          <div class="songItem">
+            <img alt="1">
+            <span class="songName">Replay</span>
+            <span class="songlistplay"><span class="timestamp">03:57<i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+        </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Sweater Weather</span>
+                <span class="songlistplay"><span class="timestamp">02:16 <i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Replay</span>
+                <span class="songlistplay"><span class="timestamp">04:02<i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Stereo Hearts</span>
+                <span class="songlistplay"><span class="timestamp">04:22 <i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">It ain't me</span>
+                <span class="songlistplay"><span class="timestamp">04:00 <i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Middle</span>
+                <span class="songlistplay"><span class="timestamp">03:39 <i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Rewrite the stars</span>
+                <span class="songlistplay"><span class="timestamp">03:35 <i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Hot girl bummer</span>
+                <span class="songlistplay"><span class="timestamp">04:11 <i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Stuck with you</span>
+                <span class="songlistplay"><span class="timestamp">04:10 <i id="8" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Industry Baby</span>
+                <span class="songlistplay"><span class="timestamp">04:14 <i id="9" class="far songItemPlay fa-play-circle"></i></span></span>
+            </div>
+        </div>
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" class="slider" id="myProgressBar" min="1" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-2x fa-step-backward " id="previous"></i>
+            <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="45px" id="gif" alt=""><span id="masterSongName">Ram Ji Ki Nikali Sawari </span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/5e6df48ab1.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
